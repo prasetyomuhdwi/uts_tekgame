@@ -310,10 +310,10 @@ void item() {
 /// <param name="fontSize">ukuran font</param>
 void setText(int posX, int posY, const char* align, const char* text, int fontSize = 35) {
 
-	/*slSetForeColor(1, 1, 1, 1);
+	slSetForeColor(1, 1, 1, 1);
 
 	slPush();
-	slSetFont(slLoadFont("poppins.ttf"), fontSize);
+	slSetFont(slLoadFont("LEMONMILK-Regular.otf"), fontSize);
 	slPop();
 
 	if (align == "center")
@@ -328,7 +328,6 @@ void setText(int posX, int posY, const char* align, const char* text, int fontSi
 	}
 
 	slText(posX, posY, text);
-	*/
 }
 
 int main() {
